@@ -1,3 +1,7 @@
 # Project_1
 IMDB Data Scraping and Visualizations
 This project focuses on extracting and analyzing movie data from IMDb for the year 2024. The task involves scraping data such as movie names, genres, ratings, voting counts, and durations from IMDb's 2024 movie list using Selenium. The data will then be organized genre-wise, saved as individual CSV files, and combined into a single dataset stored in an SQL database. Finally, the project will provide interactive visualizations and filtering functionality using Streamlit to answer key questions and allow users to customize their exploration of the dataset.
+
+Scrape.sql is a file with sql queries used to create db table and verifying the table.
+Scarpping_Db contains the code of webscraping cleaning and inserting 
+Home.py is the streamlit application which does visulaisation and filterration
